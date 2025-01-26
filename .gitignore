@@ -3,3 +3,4 @@ note.txt
 *pycache*
 */*pycache*
 *.pyc
+.env
