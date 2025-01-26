@@ -4,3 +4,4 @@ note.txt
 */*pycache*
 *.pyc
 .env
+*db.sqlite*
