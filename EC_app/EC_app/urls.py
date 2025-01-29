@@ -1,12 +1,14 @@
 from django.urls import path
 from django.contrib import admin
+from ec_api import views as ec_api_views
 from rest_framework import routers
 
 
-routers = routers.DefaultRouter()
+router = routers.DefaultRouter()
 
-urlpatterns = routers.urls
+urlpatterns = router.urls
 
 urlpatterns += [
     path('admin/', admin.site.urls),
+    path('contact/', ec_api_views.InputDataAPIView.as_view()),
 ]
