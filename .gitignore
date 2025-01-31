@@ -5,3 +5,4 @@ note.txt
 *.pyc
 .env
 *db.sqlite*
+EC_app/ec_api/migrations/*

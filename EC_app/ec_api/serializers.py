@@ -10,7 +10,7 @@ class InputDataSerializer(serializers.ModelSerializer):
 	window_wall_ratio = FloatField(required=True)
 	depth_of_shade = FloatField(required=True)
 	wall_r_value = FloatField(required=True)
-	glass_U_factor = FloatField(required=True)
+	glass_u_factor = FloatField(required=True)
 	
 	cooling = FloatField()
 	heating = FloatField()
@@ -23,7 +23,7 @@ class InputDataSerializer(serializers.ModelSerializer):
 			'window_wall_ratio',
 			'depth_of_shade',
 			'wall_r_value',
-			'glass_U_factor',
+			'glass_u_factor',
 			'cooling',
 			'heating',
 			'lighting',

@@ -9,7 +9,7 @@ from rest_framework.response import Response
 
 class InputDataAPIView(views.APIView):
     """
-    A simple APIView for creating contact entires.
+    A simple APIView for saving input data.
     """
     serializer_class = InputDataSerializer
 

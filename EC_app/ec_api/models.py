@@ -27,8 +27,8 @@ class InputData(
 	orientation = models.CharField(verbose_name="orientation", max_length=1)	
 	window_wall_ratio = models.FloatField(verbose_name="window_wall_ratio")
 	depth_of_shade = models.FloatField(verbose_name="depth_of_shade")
-	wall_r_value = models.FloatField(verbose_name="wall_R_value")
-	glass_U_factor = models.FloatField(verbose_name="glass_u_factor")
+	wall_r_value = models.FloatField(verbose_name="wall_r_value")
+	glass_u_factor = models.FloatField(verbose_name="glass_u_factor")
 	
 	cooling = models.FloatField(verbose_name="cooling", blank=True)
 	heating = models.FloatField(verbose_name="heating", blank=True)

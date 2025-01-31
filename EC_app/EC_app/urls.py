@@ -10,5 +10,5 @@ urlpatterns = router.urls
 
 urlpatterns += [
     path('admin/', admin.site.urls),
-    path('contact/', ec_api_views.InputDataAPIView.as_view()),
+    path('ec_prediction/', ec_api_views.InputDataAPIView.as_view()),
 ]
