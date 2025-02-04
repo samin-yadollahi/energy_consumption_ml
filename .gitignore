@@ -6,3 +6,4 @@ note.txt
 .env
 *db.sqlite*
 EC_app/ec_api/migrations/*
+*.pkl
